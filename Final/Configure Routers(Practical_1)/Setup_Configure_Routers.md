@@ -29,7 +29,7 @@ R3(config-router)# area 0 authentication message-digest
 ```
 ### Step 3: Configure the MD5 key for all the routers in area 0
 Configure an MD5 key on the serial
-interfaces on R1, R2 and R3. Use the password MD5pa55 for key 1.
+interfaces on R1, R2 and R3. Use the password `MD5pa55` for `key 1`.
 
 ```bash
 
@@ -130,7 +130,7 @@ PC> telnet 192.168.3.1
 Connect to R3 using SSH on PC-C
 
 ```
-PC> ssh –l SSHadmin 192.168.3.1
+PC> ssh -l SSHadmin 192.168.3.1
 ```
 Connect to R3 using SSH on R2.
 ```
